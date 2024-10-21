@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sec1{
+    border-bottom: 2px solid black;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sec1 h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 700;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sec1 p{
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.salad{
+    height: auto;
+    border-bottom: 2px solid black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width:953px){
+    .salad{
+        display: flex;
+    }
+    .saladimg{
+        height: 400px;
+    }
+.saladcont{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saladcont h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.saladcont button{
+    font-size: 22px;
+    font-weight: 400;
+    color: antiquewhite;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    border-radius: 10%;
+    background-color: rgb(97, 3, 38);
+}
+.noodimg{
+    margin-top: 2%;
+    height: 300px;
+    margin-left: 5%;
+}
+}
+@media (max-width:952px){
+    .saladcont{
+        margin-top: 10%;
+        display: flex;
+        margin-left: 4%;
+    }
+    .saladcont h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .saladcont button{
+        font-size: 22px;
+        font-weight: 400;
+        color: antiquewhite;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: 2%;
+        border-radius: 10%;
+        background-color: rgb(97, 3, 38);
+    }
+    .saladimg{
+        height: 300px;
+        margin-left: 10%;
+    }
+    .noodimg{
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
 }

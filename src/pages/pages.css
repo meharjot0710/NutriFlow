@@ -1,0 +1,258 @@
+body{
+  background-color: blanchedalmond;
+}
+.contain{
+  display: flex;
+  flex-wrap: wrap;
+}
+.head{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.inputdish{
+  border: 2px solid black ;
+  width: 30vw;
+  height: 30px;
+}
+.item{
+  margin: 2%;
+  min-width: 300px;
+  min-height: 400px;
+  max-width: 20vw;
+  max-height: 30vh;
+  background-color: rgb(97, 3, 38);
+  cursor: pointer;
+  border: 2px solid antiquewhite;
+  box-shadow: 0px 0px 20px 10px #ccc;
+}
+.itemnum{
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  color: antiquewhite;
+}
+.itemimg{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.showdetailprod{
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgb(97, 3, 38);
+  z-index: 5;
+  left: 10%;
+  border: 2px solid antiquewhite;
+  top: 15%;
+}
+@keyframes hidewelll {
+  0%{
+    top: 0%;
+  }
+  100%{
+    top: -100%;
+    display: none;
+  }
+}
+.searchbar{
+  display: flex;
+  padding: 3%;
+  width: 100%;
+}
+.searchbar h1{
+  width: 80%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.searchbar button{
+  margin-left: 1%;
+}
+.selectecpa{
+  display: flex;
+  width: 100%;
+  padding: 2%;
+}
+.selectecpa h1{
+  color: antiquewhite;
+  width: 95%;
+  font-size: 25px;
+}
+.selectecpa Button{
+  color: antiquewhite;
+  width: 10%;
+  font-size: 25px;
+}
+.showdetailprod {
+  height: auto;
+  width: 90%;
+  overflow-y: auto; 
+  margin-right: 10%;
+  padding: 2%;
+  background-color: rgb(97, 3, 38);
+  border-radius: 10px;
+}
+.expimgandinfo {
+  display: flex;
+  margin: 2%;
+  overflow-y: auto;
+}
+
+.expimgandinfo img {
+  height: 35vh;
+  border: 2px solid antiquewhite;
+  width: 20vw;
+}
+
+.incredients {
+  width: 35%;
+  margin-left: 7%;
+  max-height: 35vh; 
+
+}
+.nutrition{
+  margin-left: 4%;
+  max-height: 35vh; 
+}
+.incredients h1,
+.nutrition h1 {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+.incredients ul {
+  margin-top: 2%;
+}
+
+.incredients ul li, .nutrition ul li {
+  color: antiquewhite;
+  margin: 2%;
+  list-style: square;
+}
+@media (min-width:953px){
+.ps{
+  font-size: 17px;
+  font-weight: 400;
+}
+.searchd{
+  float: left;
+  display: flex;
+  margin-left: 1%;
+  height: 60vh;
+  align-items: center;
+}
+.containnutri{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.dishnames{
+  min-height: 400px;
+  width: 30%;
+  border: 2px solid black;
+  background-color: rgb(97, 3, 38);
+  text-align: center;
+  margin-right: 2%;
+  border: 2px solid antiquewhite;
+  box-shadow: 0px 0px 20px 10px #ccc;
+}
+.nutrientscal{
+  min-height: 400px;
+  width: 50%;
+  border: 2px solid black;
+  background-color: rgb(97, 3, 38);
+  margin-right: 2%;
+  padding-left: 7%;
+  border: 2px solid antiquewhite;
+  box-shadow: 0px 0px 20px 10px #ccc;
+}
+.textc{
+  color: antiquewhite;
+}
+.dishnames ul li, .nutrientscal ul li{
+  color: antiquewhite;
+  list-style: square;
+}
+.dishnames h1, .nutrientscal h1{
+  color: antiquewhite;
+}
+
+.searchd button{
+  margin-left: 2%;
+}
+.headingmeal{
+  font-size: 22px;
+  font-weight: 600;
+}
+.showcal{
+  margin-top: 2%;
+  color: antiquewhite;
+  font-size: 20px;
+  width: 95%;
+  margin-left: 2%;
+}
+.calcount{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+}
+@media (max-width:952px){
+.ps{
+  font-size: 17px;
+  font-weight: 400;
+}
+.containnutri{
+  display: flex;
+}
+.dishnames{
+  min-height: 400px;
+  width: 30%;
+  border: 2px solid black;
+  background-color: rgb(97, 3, 38);
+  text-align: center;
+  margin-right: 2%;
+  border: 2px solid antiquewhite;
+  box-shadow: 0px 0px 10px 2px #ccc;
+}
+.nutrientscal{
+  min-height: 400px;
+  width: 70%;
+  border: 2px solid black;
+  background-color: rgb(97, 3, 38);
+  padding-left: 7%;
+  margin-right: 2%;
+  border: 2px solid antiquewhite;
+  box-shadow: 0px 0px 10px 2px #ccc;
+}
+.headingmeal{
+  font-size: 22px;
+  font-weight: 600;
+}
+.calcount{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.inputdish{
+  width: 60vw;
+}
+.searchd button{
+  margin-left: 3%;
+}
+.textc{
+  color: antiquewhite;
+}
+.dishnames ul li, .nutrientscal ul li{
+  list-style: square;
+  color: antiquewhite;
+}
+.dishnames h1, .nutrientscal h1{
+  color: antiquewhite;
+}
+}

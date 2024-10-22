@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NutriFlow/static/css/main.dbe26ce9.css",
-    "main.js": "/NutriFlow/static/js/main.331d7d80.js",
+    "main.css": "/NutriFlow/static/css/main.5f5aa0f4.css",
+    "main.js": "/NutriFlow/static/js/main.e8d2d910.js",
     "static/js/453.ea645647.chunk.js": "/NutriFlow/static/js/453.ea645647.chunk.js",
     "static/media/salad.png": "/NutriFlow/static/media/salad.7367c827aa0bb95871a6.png",
     "static/media/nood.png": "/NutriFlow/static/media/nood.67fd4bf7c7ca6e059f48.png",
     "index.html": "/NutriFlow/index.html",
-    "main.dbe26ce9.css.map": "/NutriFlow/static/css/main.dbe26ce9.css.map",
-    "main.331d7d80.js.map": "/NutriFlow/static/js/main.331d7d80.js.map",
+    "main.5f5aa0f4.css.map": "/NutriFlow/static/css/main.5f5aa0f4.css.map",
+    "main.e8d2d910.js.map": "/NutriFlow/static/js/main.e8d2d910.js.map",
     "453.ea645647.chunk.js.map": "/NutriFlow/static/js/453.ea645647.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbe26ce9.css",
-    "static/js/main.331d7d80.js"
+    "static/css/main.5f5aa0f4.css",
+    "static/js/main.e8d2d910.js"
   ]
 }
